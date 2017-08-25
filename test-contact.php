@@ -41,7 +41,7 @@ function test_input($data) {						//WE USE THIS FUNCTION TO TEST ALL OUR USER IN
   $data = trim($data);							//TAKE OFF UNNECESSARY CHARACTERS, SUCH AS EXTRA SPACE
   $data = stripslashes($data);						//REMOVE BACKSLASHES FROM INPUTS
   $data = htmlspecialchars($data);					//CONVERT ALL INPUT CODE INTO HTML escape code, PREVENTING
-									//ANY UNWATED CODE EXECUTION
+									//ANY UNWANTED CODE EXECUTION
 													
   return $data;								//SEND DATA BACK TO MAIL FORM, WITH ERROR MESSAGES FOR ANYTHING
 									//THAT WAS NOT PUT IN CORRECTLY

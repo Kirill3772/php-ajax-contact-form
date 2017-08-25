@@ -51,9 +51,9 @@ function test_input($data) {						//WE USE THIS FUNCTION TO TEST ALL OUR USER IN
 <?php
 if (!$val_error) {							//IF NO ERRORS WERE FOUND, AND val_error IS FALSE, SEND USER
 									//INPUTS TO THE DESIRED EMAIL ADDRESS
-$to = "kirill3772@hotmail.com";
+$to = "youremail@hotmail.com";
 $subject = "Contact From Articulate SEO";
-$from = "$name <kirill@articulateseo.com>";
+$from = "$name <user@website.com>";
 $message = "<html>
 		<body>
 			<table style='width: 100%; padding: 1em;'>
@@ -82,7 +82,7 @@ $headers .= "Reply-To: $email \r\n";
 $headers .= "Return-Path: $from \r\n";
 $headers .= "MIME-Version: 1.0 \r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1 \r\n";
-$headers .= "CC: redeye3772@gmail.com, codebargain@gmail.com, kirill3771@gmail.com";
+$headers .= "CC: email@hotmail.com, email@gmail.com";
 mail($to,$subject,$message,$headers,"-f$email");
 					//IN ORDER TO SEND OUT HTML MAIL CORRECTLY AND BYPASS SPAM FILTERS, THE from, headers AND
 					//mail SECTIONS MUST BE SET EXACTLY AS ABOVE. FOR EXAMPLE, THE $from PART MUST BE

@@ -1,5 +1,5 @@
 # php-ajax-contact-form
-Dynamic Contact Form using AJAX and PHP, including: Cross Browser Support (even old IE browsers), Server Side Input Validation, Error Messages, Email Spam Filter Bypass (tested with gmail and hotmail), Connection Monitoring and Basic HTML Email Styling.
+Dynamic Contact Form using AJAX and PHP, including: Cross Browser Support (even old IE browsers), Server Side Input Validation, Error Messages, Email Spam-Filter Bypass (tested with gmail and hotmail), Connection Monitoring and Basic HTML Email Styling.
 Created By: Kirill Sukharev --- http://articulateseo.com --- contact at codebargain@gmail.com
 
 GETTING STARTED

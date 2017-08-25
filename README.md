@@ -4,7 +4,7 @@ Created By: Kirill Sukharev --- http://articulateseo.com --- contact at codebarg
 
 GETTING STARTED
 
-SOME COMMON PROBLEMS people have with custom mail scripts are: not being able to send mail out directly with SMPT, having their mail rejected by the receiving email provider, or having their email always ending up in the spam folder. This guide will explain how to fix ALl of these issues. Before you get started with the AJAX / PHP form, make sure that you have done the following:
+SOME COMMON PROBLEMS people have with custom mail scripts are: not being able to send mail out directly with SMPT, having their mail rejected by the receiving email provider, or having their email always end up in the spam folder. This guide will explain how to fix ALl of these issues. Before you get started with the AJAX / PHP form, make sure that you have done the following:
 
 CREATE AN SPF RECORD FOR YOUR DOMAIN: this can ususally be done by going to your domains DNS management and adding a TXT record with value "v=spf1 mx -all" that worked fine for me.
 

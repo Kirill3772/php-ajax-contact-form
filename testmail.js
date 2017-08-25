@@ -22,7 +22,7 @@ var	fnameS = document.getElementById("fname"), //FIRST LETS DECLARE WHATEVER VAR
 									//ABOVE IS THE ERROR MESSAGE USERS WILL SEE IF THE AJAX
 									//REQUEST FAILS TO GET A RESPONSE FROM THE SERVER
 		
-		resp.style.display = "block";	//ALLOW RESPONSES TO DISPLAY, YOU CAN HIDE THEM LATER 				
+		resp.style.display = "block";				//ALLOW RESPONSES TO DISPLAY, YOU CAN HIDE THEM LATER 				
         
 		xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {		//CHECK SERVER STAUS, EXECUTE FUNCTION IF 4,200

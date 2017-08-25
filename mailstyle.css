@@ -1,0 +1,95 @@
+/* VALIDATION */
+.errname, .errmail, .errtxt, .success, .connect-err {
+  display: block;
+  position: absolute;
+  width: 95%;
+  background: #5f1010;
+  color: #fff;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border: 0.12em solid #ff0000;
+  left: 0;
+}
+.success {
+  border-color: green;
+  background: #26ad4f;
+  color: #fff;
+  left: 0;
+}
+#response {
+  display: none;
+  height: 9em;
+}
+.errname p, .errmail p, .errtxt p, .success p, .connect-err p {
+  padding: 0.3em;
+  margin: 0 auto;
+  left: 0;
+  text-align: center;
+  border-radius: 0;
+  background: none;
+}
+.errname {top: 3em;}
+.errmail {top: 7em;}
+.connect-err {
+  width: 17em;
+  height: 3.8em;
+  padding-top: 1em;
+  color: #fff;
+}
+.connect-err, .success, .errtxt {
+	position: relative;
+}
+/*CONTACT*/
+#contact, footer {background: rgba(255,255,255,0.8); padding: 2em 0;}
+form, footer, #contact h2 {color: #336dad; font-weight: bold;}
+form, label, label textarea {
+  display: block;
+  position: relative;
+  width: auto;
+  vertical-align: top;
+}
+input, form, label, label textarea {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+form {
+  width: 19em;
+  height: auto;
+  min-height: 22em;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 999;
+}
+form p {
+  margin: 0;
+  padding: 0;
+  font-size: 115%;
+  line-height: 115%;
+}
+label {
+  padding: 1em 0;
+  width: 19em;
+  float: left;
+  line-height: 2em;
+}
+#submit {
+  margin-right: 1em;
+}
+#fname {
+  width: 65%;
+}
+#email {
+  width: 75%;
+}
+#message {
+  width: 93%;
+}
+input, select {vertical-align:middle;}
+#emailval {
+  position: absolute;
+  top: 1em;
+  color: #ff0000;
+  border: 2px solid green;
+}

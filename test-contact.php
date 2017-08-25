@@ -72,7 +72,7 @@ $message = "<html>
 					<td>Made By Kirill Sukharev</td>
 				</table>
 				</tr>
-				</table>
+			</table>
 		   </body>
 	     </html>";				//IF SENDING HTML MAIL, YOU MUST BUILD IT USING MAINLY table TAGS, IF YOU TRY USING
 						//TAGS SUCH AS div, SOME EMAIL PROVIDERS WILL STRIP THEM OUT, ESPECIALLY IF THEY ARE

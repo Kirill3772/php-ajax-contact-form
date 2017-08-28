@@ -43,8 +43,8 @@ function test_input($data) {						//WE USE THIS FUNCTION TO TEST ALL OUR USER IN
   $data = htmlspecialchars($data);					//CONVERT ALL INPUT CODE INTO HTML escape code, PREVENTING
 									//ANY UNWANTED CODE EXECUTION
 													
-  return $data;								//SEND DATA BACK TO MAIL FORM, WITH ERROR MESSAGES FOR ANYTHING
-									//THAT WAS NOT PUT IN CORRECTLY
+  return $data;								
+									
 }
 ?>
 

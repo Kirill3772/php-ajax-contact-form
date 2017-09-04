@@ -8,7 +8,7 @@ SOME COMMON PROBLEMS people have with custom mail scripts are: not being able to
 
 CREATE AN SPF RECORD FOR YOUR DOMAIN: this can ususally be done by going to your domains DNS management and adding a TXT record with value "v=spf1 mx -all" that worked fine for me.
 
-MAKE SURE THAT YOUR HEADERS ARE SET CORRECTLY. Many people will tell you that the contents of the message are the most important in getting your mail through spam. FALSE, after hours of testing and modifying headers, the setup I have will allow your mailscript to bypass spam and go directly to the inbox, even if you use a fake email address and a random message with a bunch of urls. (TESTED WITH GMAIL AND HOTMAIL). The most important part of a mail script are your "headers" and "mail" settings. To prevent spam from reaching your inbox (such as messages with a bunch of urls), you need to use PHP filters, which will prevent the message from being sent at all, or by setting your server to deny access to websites or ip addresses you do not trust.
+MAKE SURE THAT YOUR HEADERS ARE SET CORRECTLY: Headers, mail() section and the contents of your email are crucial to bypassimg email spam filters. This is especially true with MS accounts such as hotmail. This mail form setup will bypass gmail spam filters with ease, however MS accounts are much stricter. Even with a trusted relay server and correct headers / content, you will still have to whitelist the sender from inside your MS accounts.
 
 /////FOR THOSE USING DEDICATED OR CLOUD SERVERS/////////////
 

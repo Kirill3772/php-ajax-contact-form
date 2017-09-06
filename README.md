@@ -8,7 +8,7 @@ SOME COMMON PROBLEMS people have with custom mail scripts are: not being able to
 
 CREATE AN SPF RECORD FOR YOUR DOMAIN: this can ususally be done by going to your domains DNS management and adding a TXT record with value "v=spf1 mx -all" that worked fine for me.
 
-MAKE SURE THAT YOUR HEADERS ARE SET CORRECTLY: Headers, mail() section and the contents of your email are crucial to bypassimg email spam filters. This is especially true with MS accounts such as hotmail. This mail form setup will bypass gmail spam filters with ease, however MS accounts are much stricter. Even with a trusted relay server and correct headers / content, you will still have to whitelist the sender from inside your MS accounts.
+MAKE SURE THAT YOUR HEADERS ARE SET CORRECTLY: Headers, mail() section and the contents of your email are crucial to bypassing email spam filters. This is especially true with MS accounts such as hotmail. This mail form setup will bypass gmail spam filters with ease, however MS accounts are much stricter. Even with a trusted relay server and correct headers / content, you will still have to whitelist the sender from inside your MS accounts.
 
 /////FOR THOSE USING DEDICATED OR CLOUD SERVERS/////////////
 
